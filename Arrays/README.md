@@ -9,11 +9,10 @@ Although Python doesn't have built-in support for traditional arrays as seen in 
 Lists are created using square brackets `[]`.
 
 ```python
-# Creating a list
 numbers = [1, 2, 3, 4, 5]
 ```
 
-## Accessing elements
+### Accessing elements
 
 Elements are accessed by their index, starting from 0.
 
@@ -22,7 +21,7 @@ print(numbers[0]) # Output: 1
 print(numbers[4]) # Output: 5
 ```
 
-## Slicing a list
+### Slicing a list
 
 You can retrieve a range of elements using slicing.
 
@@ -33,7 +32,7 @@ print(numbers[2:])   # Output: [3, 4, 5]
 print(numbers[:])    # Output: [1, 2, 3, 4, 5]
 ```
 
-## Modifying elements
+### Modifying elements
 
 Lists are mutable, so you can change their content.
 
@@ -42,7 +41,7 @@ numbers[0] = 10
 print(numbers) # Output: [10, 2, 3, 4, 5]
 ```
 
-## Adding Elements
+### Adding Elements
 
 You can add elements using append(), insert(), or extend().
 
@@ -67,7 +66,7 @@ numbers.extend([7, 8])
 print(numbers)  # Output: [10, 15, 2, 3, 4, 5, 6, 7, 8]
 ```
 
-## Removing elements
+### Removing elements
 
 Elements can be removed using remove(), pop(), or del.
 
@@ -76,7 +75,7 @@ numbers.remove(15)
 print(numbers) # Output: [10, 2, 3, 4, 5, 6, 7, 8]
 ```
 
-## Popping elements
+### Popping elements
 
 ```bash
 popped_element = numbers.pop(0)
@@ -84,14 +83,14 @@ print(popped_element) # Output: 10
 print(numbers) # Output: [2, 3, 4, 5, 6, 7, 8]
 ```
 
-## Deleting elements
+### Deleting elements
 
 ```bash
 del numbers[0]
 print(numbers) # Output: [3, 4, 5, 6, 7, 8]
 ```
 
-## Iterating over a list
+### Iterating over a list
 
 You can use a for loop to iterate over the elements.
 
